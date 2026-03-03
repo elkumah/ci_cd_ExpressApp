@@ -20,6 +20,6 @@ jobs:
       - name: Run test
         run: npm test
       - name: Run SonarCloud Scan
-        uses: SonarSource/sonarqube-scan-action@v2.4.0
+        uses: SonarSource/sonarqube-scan-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
