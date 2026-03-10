@@ -21,7 +21,7 @@ jobs:
         run: npm  ci
       - name: Build the application
         run: npm run build --if-present
-      - name: Run tests and lint
+      - name: Run tests
         run: npm test
       - name: Run lint
         run: npm run lint
