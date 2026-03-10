@@ -121,13 +121,13 @@ The project directory is scanned with Trivy to detect:
 
 ## Running the Project Locally
 
-** Install dependencies \***
+**Install dependencies**
 
 ```javascript
 npm install
 ```
 
-** Run the app **
+**Run the app**
 
 ```javascript
 npm start
@@ -139,13 +139,13 @@ The application runs on:
 http://localhost:3000
 ```
 
-** Run Test**
+**Run Test**
 
 ```javascript
 npm test
 ```
 
-** Run Lint **
+**Run Lint**
 
 ```javascript
 npm run lint
